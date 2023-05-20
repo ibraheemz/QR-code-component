@@ -31,11 +31,11 @@ body {
   font-size: 15px;
 }
 .second-div > h1 {
-  font-family: "Outfit, sans-serif";
+  font-family: "Outfit", sans-serif;
   font-weight: 700;
 }
 .second-div > h2 {
-  font-family: "Outfit, sans-serif";
+  font-family: "Outfit", sans-serif;
   color: hsl(220, 15%, 55%);
   font-weight: 400;
 }
