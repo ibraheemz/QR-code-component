@@ -1,0 +1,75 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+.background-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-div {
+  flex-direction: column;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  width: 20%;
+  height: fit-content;
+  position: relative;
+  top: 20vh;
+  background-color: hsl(0, 0%, 100%);
+}
+.first-div {
+  flex: 2;
+  margin-bottom: 20px;
+}
+.first-div > img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+}
+.second-div {
+  flex: 1;
+  font-size: 15px;
+}
+.second-div > h1 {
+  font-family: "Outfit, sans-serif";
+  font-weight: 700;
+}
+.second-div > h2 {
+  font-family: "Outfit, sans-serif";
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 950px) {
+  .background-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-div {
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 75%;
+    height: fit-content;
+    position: relative;
+  }
+  .first-div {
+    flex: 2;
+    margin-bottom: 20px;
+  }
+  .first-div > img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+  }
+  .second-div {
+    flex: 1;
+    font-size: 15px;
+    font-family: "Outfit, sans-serif";
+  }
+  .second-div > h1 {
+    font-family: "Outfit, sans-serif";
+  }
+}
