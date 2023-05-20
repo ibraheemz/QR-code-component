@@ -1,5 +1,6 @@
 body {
   background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
 }
 .background-div {
   display: flex;
@@ -31,11 +32,9 @@ body {
   font-size: 15px;
 }
 .second-div > h1 {
-  font-family: "Outfit", sans-serif;
   font-weight: 700;
 }
 .second-div > h2 {
-  font-family: "Outfit", sans-serif;
   color: hsl(220, 15%, 55%);
   font-weight: 400;
 }
@@ -67,9 +66,5 @@ body {
   .second-div {
     flex: 1;
     font-size: 15px;
-    font-family: "Outfit, sans-serif";
-  }
-  .second-div > h1 {
-    font-family: "Outfit, sans-serif";
   }
 }
